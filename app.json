@@ -1,14 +1,12 @@
 {
     "name": "Chat-Gpt",
-    "description": "A Telegram open-ai Chatgpt bot.",
-    "logo": "https://te.legra.ph/file/9fa2101b77407dbec7d31.jpg",
+    "description": "A Telegram Chatgpt bot.",
+#    "logo": "https://te.legra.ph/file/9fa2101b77407dbec7d31.jpg",
     "keywords": [
     "telegram",
     "chatgpt",
     "python",
-    "pyrogram",
-    "Noob-Mukesh",   
-        
+    "pyrogram"
   ],
     "buildpacks": [{
     "url": "heroku/python"
@@ -16,56 +14,40 @@
   "repository": "https://github.com/Radhak8/ChatGpt",
     "env": {
         "BOT_TOKEN": {
-            "description": "telegram bot token here",
+            "description": "your telegram bot token here. get it from @botfather",
             "required": true
-        },  
-        "OWNER_USERNAME": {
-            "description": "Owner Username without @",
-            "required": true
-        },    
+        },        
         "OPENAI_KEY": {
             "description":"OPEN-AI key here: extract from https://platform.openai.com/account/api-keys",
             "required": true
         },
-        "BARD_TOKEN": {
-            "description":"BARD_TOKEN key here: extract from https://bard.google.com/",
+        "BOT_USERNAME": {
+            "description": "telegram bot username without @",
             "required": false
         },
-        "BOT_USERNAME": {
-            "description": "telegram bot username here without @",
-            "required": true
-        },
         "BOT_NAME": {
-            "description": "Simple Bot-name. Do not use Modified Text..",
-            "required": true
+            "description": "Do not use Modified Text..",
+            "required": false
         },
         
         "SUPPORT_GRP": {
-            "description": "Your Support Group without @",
-            "required": true
+            "description": "Your Support Chat without @",
+            "required": false
         },
         "STKR": {
-            "description": "Sticker for start ",
-            "required": true
+            "description": "Sticker for start message",
+            "required": false
         },
         "START_IMG": {
             "description": "Start Image For Bot.",
-            "required": true
-        },
-        "UPDATE_CHNL": {
-            "description": "Your Updates Channel without @",
-            "required": true
-        },
-        "SUPPORT_GRP": {
-            "description": "Your Support Group without @",
-            "required": true
+            "required": false
         },
         "API_ID": {
-            "description": "telegram api id here",
+            "description": "telegram api id.",
             "required": true
         },
         "API_HASH": {
-            "description": "telegram api hash here",
+            "description": "telegram api hash",
             "required": true
         }
     },
