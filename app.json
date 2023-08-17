@@ -1,7 +1,7 @@
 {
     "name": "Chat-Gpt",
     "description": "A Telegram Chatgpt bot.",
-#    "logo": "https://te.legra.ph/file/9fa2101b77407dbec7d31.jpg",
+    "logo": "https://te.legra.ph/file/9fa2101b77407dbec7d31.jpg",
     "keywords": [
     "telegram",
     "chatgpt",
