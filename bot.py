@@ -233,7 +233,7 @@ xd3= ("RadhaX2Update")
 if SOURCE != xd:
     print("sed, you have changed source, change it back to ` https://github.com/Radhak8/ChatGpt `  else I won't work")
     sys.exit(1)  
-if DEVELOPER==xd2:
+if DEVELOPER != xd2:
     print("sed, you have changed Dev, change it back to `MissRadha` else I won't work")
     sys.exit(1)
 if UPDATE_CHNL!=xd3:
