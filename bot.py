@@ -1,4 +1,4 @@
-#Code By @Xotic69 on telegram
+#Code By @MissRadha on telegram
 from pyrogram import Client, filters,enums,idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
@@ -13,7 +13,7 @@ from random import choice
 from datetime import datetime
 import logging
 
-FORMAT = "[XOTIC] %(message)s"
+FORMAT = "[RADHA] %(message)s"
 logging.basicConfig(
     level=logging.WARNING, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
@@ -34,11 +34,11 @@ START = f"""
 
 ᴜsᴀɢᴇ : /ask where is hampi
 """
-aditya = ("https://github.com/PyAaditya/GPT-BOT")
-owner = ("Xotic69")
-xotic = ("CODERSW0RLD")
-SOURCE = aditya
-UPDATE_CHNL = xotic
+radha = ("https://github.com/Radhak8/ChatGpt")
+owner = ("MissRadha")
+ghost = ("RadhaX2Update")
+SOURCE = radha
+UPDATE_CHNL = ghost
 DEVELOPER = owner
 SOURCE_TEXT = f"""
 ✇ ᴛʜɪs ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴏғ [{BOT_NAME}]
