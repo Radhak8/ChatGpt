@@ -227,17 +227,17 @@ async def chat(bot, message):
     
 
     
-adi = ("https://github.com/PyAaditya/GPT-BOT")
-adi2 = ("XOTIC69")
-adi3= ("CODERSW0RLD")
-if SOURCE != adi:
-    print("sed, you have changed source, change it back to ` https://github.com/PyAaditya/GPT-BOT `  else I won't work")
+xd = ("https://github.com/Radhak8/ChatGpt")
+xd2 = ("MissRadha")
+xd3= ("RadhaX2Update")
+if SOURCE != xd:
+    print("sed, you have changed source, change it back to ` https://github.com/Radhak8/ChatGpt `  else I won't work")
     sys.exit(1)  
-if DEVELOPER==adi2:
-    print("sed, you have changed Dev, change it back to `XOTIC69` else I won't work")
+if DEVELOPER==xd2:
+    print("sed, you have changed Dev, change it back to `MissRadha` else I won't work")
     sys.exit(1)
-if UPDATE_CHNL!=adi3:
-    print("sed, you have change Updates, change it back to `CODERSW0RLD` else I won't work")
+if UPDATE_CHNL!=xd3:
+    print("sed, you have change Updates, change it back to `RadhaX2Update` else I won't work")
     sys.exit(1)
 
 
@@ -252,7 +252,7 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    print(f"""JOIN  @CODERSW0RLD
+    print(f"""JOIN  @RadhaX2Support
 GIVE STAR TO THE REPO 
  {BOT_NAME} ɪs ᴀʟɪᴠᴇ!  
     """)
