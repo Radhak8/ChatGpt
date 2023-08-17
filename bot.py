@@ -39,7 +39,7 @@ owner = ("MissRadha")
 ghost = ("RadhaX2Update")
 SOURCE = radha
 UPDATE_CHNL = ghost
-DEVELOPER = MissRadha
+DEVELOPER = owner
 SOURCE_TEXT = f"""
 ✇ ᴛʜɪs ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴏғ [{BOT_NAME}]
 
