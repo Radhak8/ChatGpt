@@ -218,7 +218,7 @@ async def chat(bot, message):
 
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
 
-            await message.reply_photo(image_url,caption=f"✨ᴛɪᴍᴇ ᴛᴀᴋᴇɴ {telegram_ping} ",parse_mode=ParseMode.DISABLED,reply_markup=InlineKeyboardMarkup(X)) 
+            await message.reply_photo(image_url,caption=f"✨**ᴛɪᴍᴇ ᴛᴀᴋᴇɴ** {telegram_ping} ",parse_mode=ParseMode.DISABLED,reply_markup=InlineKeyboardMarkup(X)) 
 
     except Exception as e:
 
