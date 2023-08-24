@@ -93,7 +93,7 @@ SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', 
 HELP_READ = "✘ ᴜsᴇ /ask write a simple calculator code in python.  \n\n **✘ ᴜsᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ.**"
 HELP_BACK = [
      [
-#           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ", url=f"https://t.me/CodersW0rld/633"),
+#           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ", url=f"https://t.me/RadhaX2Support"),
            
      ],
     [
